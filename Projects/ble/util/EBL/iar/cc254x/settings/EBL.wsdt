@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>EBL/CC254x_UART0_ALT1</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>184</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>765</ColumnWidth1><ColumnWidth2>204</ColumnWidth2><ColumnWidth3>51</ColumnWidth3></Build>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16274-20295</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>EBL</ExpandedNode><ExpandedNode>EBL/Application</ExpandedNode><ExpandedNode>EBL/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-3204-20540</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\app\sbl_main.c</Filename><XPos>0</XPos><YPos>84</YPos><SelStart>4271</SelStart><SelEnd>4271</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\app\sbl_exec.c</Filename><XPos>0</XPos><YPos>57</YPos><SelStart>3328</SelStart><SelEnd>3328</SelEnd></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\app\sbl_app.h</Filename><XPos>0</XPos><YPos>88</YPos><SelStart>4806</SelStart><SelEnd>4806</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00bcdfa0><key>iaridepm.enu1</key></Toolbar-00bcdfa0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>511</Bottom><Right>258</Right><x>-2</x><y>-2</y><xscreen>202</xscreen><yscreen>200</yscreen><sizeHorzCX>185321</sizeHorzCX><sizeHorzCY>265252</sizeHorzCY><sizeVertCX>238532</sizeVertCX><sizeVertCY>680371</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1092</Right><x>-2</x><y>-2</y><xscreen>1094</xscreen><yscreen>200</yscreen><sizeHorzCX>1003670</sizeHorzCX><sizeHorzCY>265252</sizeHorzCY><sizeVertCX>185321</sizeVertCX><sizeVertCY>265252</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

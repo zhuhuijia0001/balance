@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>BIM/CC254xF256</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>128</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Find-in-Files>
+        <ColumnWidth0>389</ColumnWidth0>
+        <ColumnWidth1>55</ColumnWidth1>
+        <ColumnWidth2>668</ColumnWidth2>
+      </Find-in-Files>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>850</ColumnWidth1><ColumnWidth2>226</ColumnWidth2><ColumnWidth3>56</ColumnWidth3></Build>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18423-26467</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>BIM</ExpandedNode><ExpandedNode>BIM/APP</ExpandedNode><ExpandedNode>BIM/HAL</ExpandedNode><ExpandedNode>BIM/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-2510-26970</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-23673-560</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\app\bim_main.c</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>3061</SelStart><SelEnd>3061</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\hal\target\CC2540EB\hal_flash.c</Filename><XPos>0</XPos><YPos>151</YPos><SelStart>6231</SelStart><SelEnd>6248</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Components\hal\include\hal_flash.h</Filename><XPos>0</XPos><YPos>90</YPos><SelStart>3900</SelStart><SelEnd>3935</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\app\bim_ivec.s51</Filename><XPos>0</XPos><YPos>486</YPos><SelStart>321</SelStart><SelEnd>321</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-003ed9a0><key>iaridepm.enu1</key></Toolbar-003ed9a0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>472</Bottom><Right>202</Right><x>-2</x><y>-2</y><xscreen>180</xscreen><yscreen>189</yscreen><sizeHorzCX>167442</sizeHorzCX><sizeHorzCY>268466</sizeHorzCY><sizeVertCX>189767</sizeVertCX><sizeVertCY>673295</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>187</Bottom><Right>1077</Right><x>-2</x><y>-2</y><xscreen>1079</xscreen><yscreen>189</yscreen><sizeHorzCX>1003721</sizeHorzCX><sizeHorzCY>268466</sizeHorzCY><sizeVertCX>167442</sizeVertCX><sizeVertCY>268466</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

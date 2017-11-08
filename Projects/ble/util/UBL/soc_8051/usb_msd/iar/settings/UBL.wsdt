@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>UBL/CC2540-DK</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>123</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>773</ColumnWidth1><ColumnWidth2>206</ColumnWidth2><ColumnWidth3>51</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Find-in-Files><ColumnWidth0>389</ColumnWidth0><ColumnWidth1>55</ColumnWidth1><ColumnWidth2>668</ColumnWidth2></Find-in-Files><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1077</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1835-28295</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>UBL</ExpandedNode><ExpandedNode>UBL/App</ExpandedNode><ExpandedNode>UBL/HAL</ExpandedNode><ExpandedNode>UBL/HAL/USB</ExpandedNode><ExpandedNode>UBL/HAL/USB/library</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9447-28357</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-25681-10944</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-2868-22834</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\hal\usb\usb_board_cfg.h</Filename><XPos>0</XPos><YPos>141</YPos><SelStart>3068</SelStart><SelEnd>3068</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\app\ubl_ivec.s51</Filename><XPos>0</XPos><YPos>30</YPos><SelStart>2365</SelStart><SelEnd>2365</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\hal\usb\library\usb_descriptor.h</Filename><XPos>0</XPos><YPos>129</YPos><SelStart>4519</SelStart><SelEnd>4519</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\hal\usb\library\usb_framework.c</Filename><XPos>0</XPos><YPos>135</YPos><SelStart>5257</SelStart><SelEnd>5257</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\hal\usb\library\usb_standard_requests.c</Filename><XPos>0</XPos><YPos>298</YPos><SelStart>9842</SelStart><SelEnd>9842</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\hal\usb\library\usb_framework_structs.h</Filename><XPos>0</XPos><YPos>147</YPos><SelStart>456</SelStart><SelEnd>456</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\hal\usb\library\usb_interrupt.h</Filename><XPos>0</XPos><YPos>207</YPos><SelStart>487</SelStart><SelEnd>487</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\hal\usb\usb_interrupt.c</Filename><XPos>0</XPos><YPos>54</YPos><SelStart>1799</SelStart><SelEnd>1799</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\app\ubl_exec.c</Filename><XPos>0</XPos><YPos>535</YPos><SelStart>17660</SelStart><SelEnd>17660</SelEnd></Tab><ActiveTab>8</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\app\ubl_app.h</Filename><XPos>0</XPos><YPos>141</YPos><SelStart>7056</SelStart><SelEnd>7056</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\app\ubl_main.c</Filename><XPos>0</XPos><YPos>104</YPos><SelStart>4717</SelStart><SelEnd>4717</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\app\ubl_exec.h</Filename><XPos>0</XPos><YPos>73</YPos><SelStart>4324</SelStart><SelEnd>4324</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00fcdbf8><key>iaridepm.enu1</key></Toolbar-00fcdbf8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>350</Bottom><Right>214</Right><x>-2</x><y>-2</y><xscreen>231</xscreen><yscreen>187</yscreen><sizeHorzCX>236923</sizeHorzCX><sizeHorzCY>265625</sizeHorzCY><sizeVertCX>221538</sizeVertCX><sizeVertCY>500000</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>309</Bottom><Right>977</Right><x>-2</x><y>-2</y><xscreen>979</xscreen><yscreen>311</yscreen><sizeHorzCX>1004103</sizeHorzCX><sizeHorzCY>441761</sizeHorzCY><sizeVertCX>236923</sizeVertCX><sizeVertCY>265625</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

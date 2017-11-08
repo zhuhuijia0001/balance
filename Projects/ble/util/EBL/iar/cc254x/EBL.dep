@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1370218343</fileChecksum>
+  <configuration>
+    <name>CC254x_UART0_ALT1</name>
+    <outputs>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\hal_flash.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\osal\include\OSAL_Timers.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\..\..\app\cc254x\sbl_cc254x.xcl</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\hal_flash.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Exe\EBL.d51</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\hal_aes.pbi</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\EBL.pbd</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\sbl_exec.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\osal\include\OSAL_Memory.h</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\List\EBL.map</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\sbl_exec.pbi</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\sbl_main.r51</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\sbl_main.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\osal\include\comdef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\include\hal_assert.h</file>
+      <file>$PROJ_DIR$\..\..\app\cc254x\_sbl_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_dma.h</file>
+      <file>$PROJ_DIR$\..\..\app\sbl_app.h</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\hal_adc.r51</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\hal_aes.r51</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Exe\EBL_CC254x_UART0_ALT1.hex</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2540.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\include\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\include\hal_flash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\include\hal_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\include\hal_rpc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\osal\include\OSAL.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\include\hal_sleep.h</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\hal_adc.pbi</file>
+      <file>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\sbl_ivec.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.c</file>
+      <file>$PROJ_DIR$\..\..\app\cc254x\sbl_ivec.s51</file>
+      <file>$PROJ_DIR$\..\..\app\sbl_exec.c</file>
+      <file>$PROJ_DIR$\..\..\app\sbl_main.c</file>
+      <file>$PROJ_DIR$\..\..\app\sbl_exec.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\include\hal_adc.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\CC254x_UART0_ALT1\Exe\EBL.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 5 24 25 0 12 36 17 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CC254x_UART0_ALT1\Obj\EBL.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 35 10 6 16 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 2 1 40 39 29 27</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 46 2 1 40 39 29 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 39 29 2 27 22 1 30</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 40 39 29 2 27 22 1 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 7 15 19 2 29 13 3 37 22 1 40 39 27</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 33 7 15 19 2 29 13 3 37 22 1 40 39 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\cc254x\sbl_ivec.s51</name>
+      <outputs>
+        <tool>
+          <name>A8051</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\sbl_exec.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 15 46 2 1 40 39 29 27 37 30 32 31 23 45</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 4 15 46 2 1 40 39 29 27 37 30 32 31 23 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\app\sbl_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 2 1 40 39 29 27 20 22 34 45 21 32 31</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 46 2 1 40 39 29 27 20 22 34 45 21 32 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 8 14 26</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

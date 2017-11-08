@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1181311708</fileChecksum>
+  <configuration>
+    <name>CC254xF256</name>
+    <outputs>
+      <file>$PROJ_DIR$\CC254xF256\Obj\bem_ivec.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2540EB\hal_flash.c</file>
+      <file>$PROJ_DIR$\..\app\bem_ivec.s51</file>
+      <file>$PROJ_DIR$\..\app\bem_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_flash.h</file>
+      <file>$PROJ_DIR$\CC254xF256\Obj\bem_main.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stddef.h</file>
+      <file>$PROJ_DIR$\bem_cc254x.xcl</file>
+      <file>$PROJ_DIR$\CC254xF256\Obj\BEM.pbd</file>
+      <file>$PROJ_DIR$\CC254xF256\Obj\hal_flash.pbi</file>
+      <file>$PROJ_DIR$\CC254xF256\Obj\bem_main.pbi</file>
+      <file>$PROJ_DIR$\CC254xF256\Exe\BEM.d51</file>
+      <file>$PROJ_DIR$\CC254xF256\Obj\hal_flash.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2540EB\hal_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2540EB\hal_aes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2540EB\hal_dma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2540EB\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_board.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2540EB\hal_mcu.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2540.h</file>
+      <file>$PROJ_DIR$\CC254xF256\List\BEM.map</file>
+      <file>$PROJ_DIR$\CC254xF256\Exe\BEM_CC254xF256.hex</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2540EB\hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 18 20 22 15 23 17 19 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 20 22 15 23 17 19 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\bem_ivec.s51</name>
+      <outputs>
+        <tool>
+          <name>A8051</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\bem_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 6 13 14 16 15 17 19 18 20 22 23 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 13 14 16 15 17 19 18 20 22 23 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CC254xF256\Obj\BEM.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 10 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CC254xF256\Exe\BEM.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 24 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 7 0 5 12 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 24 25 11</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
