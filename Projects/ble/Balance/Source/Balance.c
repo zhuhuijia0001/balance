@@ -94,7 +94,7 @@
  */
 
 // What is the advertising interval when device is discoverable (units of 625us, 160=100ms)
-#define DEFAULT_ADVERTISING_INTERVAL          160//500ms
+#define DEFAULT_ADVERTISING_INTERVAL          1600
 
 // Limited discoverable mode advertises for 30.72s, and then stops
 // General discoverable mode advertises indefinitely

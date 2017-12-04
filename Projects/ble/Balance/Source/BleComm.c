@@ -385,7 +385,7 @@ void ProcessBleCom(const uint8 *buf, uint8 len)
 	else if (res == PACKET_INVALID)
 	{
 		TRACE("invalid packet\r\n");
-		Balance_StartTimer(BALANCE_PARSE_PACKET_TIMEOUT_EVT, 5000ul, false);
+		Balance_StopTimer(BALANCE_PARSE_PACKET_TIMEOUT_EVT);
 	}
 	else
 	{

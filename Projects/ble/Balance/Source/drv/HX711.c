@@ -86,8 +86,8 @@ static uint32 GetHx711ADCValue()
 	uint32 adc = 0;
 	uint8 i;
 
-	uint8 level;
-	HAL_ENTER_CRITICAL_SECTION(level);
+	halIntState_t intState;
+	HAL_ENTER_CRITICAL_SECTION(intState);
 	
 	for (i = 0; i < 24; i++)
 	{
@@ -109,7 +109,10 @@ static uint32 GetHx711ADCValue()
 		
 	CLR_GPIO_BIT(PIN_SLK);
 
-	HAL_EXIT_CRITICAL_SECTION(level);
+	HAL_EXIT_CRITICAL_SECTION(intState);
+
+	//20bit adc
+	adc >>= 4;
 	
 	return adc;
 }

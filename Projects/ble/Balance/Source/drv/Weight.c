@@ -59,7 +59,7 @@ void SetCalibration(const struct CalibrationItem *caliItem, uint8 caliItemCount)
 
 static void AdcCallback(uint32 adc)
 {
-	//TRACE("adc:0x%08lX\r\n", adc);
+	TRACE("adc:0x%08lX\r\n", adc);
 	
 	switch (s_weighStatus)
 	{
@@ -98,8 +98,6 @@ static void AdcCallback(uint32 adc)
 
 	case weigh_status_weighing:
 		{
-			uint32 val;
-			
 			if (s_caliItemCount == 2)
 			{
 				const struct CalibrationItem *caliItemMin, *caliItemMax;
@@ -124,19 +122,37 @@ static void AdcCallback(uint32 adc)
 					zeroAdc = s_tareAdc;
 				}
 
+				uint16 integer;
+				uint16 frac;
+				
 				if (adc > zeroAdc)
 				{
-					val = (caliItemMax->kgInt * 10000 + caliItemMax->kgFrac 
-							- caliItemMin->kgInt * 10000 - caliItemMin->kgFrac) * (adc - zeroAdc);
+					uint32 deltaAdc = adc - zeroAdc;
+					
+					uint32 deltaCaliAdc = caliItemMax->adc - caliItemMin->adc;
+					
+					uint32 tempInt = (caliItemMax->kgInt - caliItemMin->kgInt) * deltaAdc;
+					uint32 tempFrac = (caliItemMax->kgFrac - caliItemMin->kgFrac) * deltaAdc;
+					
+					TRACE("tempInt1:0x%08lX,tempFrac1:0x%08lX\r\n", tempInt, tempFrac);
+					
+					tempFrac += (tempInt % deltaCaliAdc) * 10000;
+					tempFrac /= deltaCaliAdc;
+					
+					tempInt /= deltaCaliAdc;
+					tempInt += tempFrac / 10000;
+					
+					tempFrac %= 10000;
+					
+					integer = tempInt;
+					frac = tempFrac;
 				}
 				else
 				{
-					val = 0;
+					integer = 0;
+					frac = 0;
 				}
 				
-				uint16 integer = val / (caliItemMax->adc - caliItemMin->adc) / 10000;
-				uint16 frac = val / (caliItemMax->adc - caliItemMin->adc) % 10000;
-					
 				if (s_weighCallback != NULL)
 				{
 					s_weighCallback(integer, frac);
